@@ -469,7 +469,7 @@ button {
 
 .contacts-phone__num span {
   font-size: 1.6vw;
-  color: rgba(146, 227, 236, 1);;
+  color: rgb(78 152 255);
 }
 
 .contacts-phone__num a {
@@ -479,7 +479,7 @@ button {
 }
 
 .contacts-phone__recall {
-  color: rgba(146, 227, 236, 1);;
+  color: rgb(78 152 255);
   margin-top: 0.5vw;
   font-size: 0.729vw;
   border-bottom: 1px solid rgba(146, 227, 236, 1);;
@@ -520,7 +520,7 @@ button {
 
 .first-screen-content__uptitle {
   font-weight: 300;
-  color: rgba(146, 227, 236, 1);;
+  color: rgb(78 152 255);
   font-size: 1.562vw;
 }
 
@@ -736,7 +736,7 @@ button {
   font-size: 0.9375vw;
   font-weight: 700;
   text-transform: uppercase;
-  background: rgba(146, 227, 236, 1);;
+  background: rgb(69 103 255);
   color: #fff;
   text-shadow: 0 0 0 0;
   box-shadow: 0 0 0 0;
@@ -2092,7 +2092,7 @@ button {
   background: -webkit-gradient(linear, left top, right top, from(#f5ae08), to(#f9ca0c));
   background: linear-gradient(to right, #f5ae08 0%, #f9ca0c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5ae08', endColorstr='#f9ca0c', GradientType=1);
-  background: rgba(146, 227, 236, 1);;
+  background: rgb(69 103 255);
 }
 
 .ui-slider-handle:before {

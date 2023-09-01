@@ -44,15 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // ...
     } else {
         // Сообщение успешно отправлено
-        if ($formname == 'russian') {
-            header("Location: russianThanks.php");
-            exit;
-        }
-        if ($formname == 'ukrainian') {
-            header("Location: ukrainianThanks.php");
-            exit;
-        }
-        header("Location: thanks.php");
+        header("Location: thanks.html");
         exit;
     }
 }
