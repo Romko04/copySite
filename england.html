@@ -27,24 +27,21 @@
 
 
     <!-- Meta Pixel Code -->
-    <script async src="js/fbevents.js"></script>
-    <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1028673541466760');
-        fbq('track', 'PageView');
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1499609763911421');
+    fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=1028673541466760&amp;ev=PageView&amp;noscript=1"></noscript>
+    src="https://www.facebook.com/tr?id=1499609763911421&ev=PageView&noscript=1"
+    /></noscript>
     <!-- End Meta Pixel Code -->
 
 
@@ -106,12 +103,7 @@
 
 <div class="first-screen" style="box-shadow: 0 0 0 9999px rgba(0,0,0,0.6) inset;">
     <div class="container" style="position: relative;">
-        <header class="header-inner">
-            <div class="header-inner-logo">
-                <div class="header-inner-logo-left" style="background: none;padding-left: 0;padding-right: 0;">
-                    <img src="images/logo_.png" alt style="border:12px solid white;">
-                </div>
-            </div>
+        <header class="header-inner">v>
             <div class="header__content-left">
                 <div class="languages">
                     <a class="languages__link" href="/">UA</a>
@@ -629,12 +621,11 @@
                                                 <div class="inputs_form">
                                                     <div class="main-input" style="margin-bottom: 15px;"><span
                                                             class="icon-Woman"></span><input class="main-input__inner"
-                                                            type="text" placeholder="Ваше ім'я" name="yourName"
+                                                            type="text" placeholder="Your name" name="yourName"
                                                             required>
                                                     </div>
-                                                    <div class="main-input"><span class="icon-Phones"></span><input
-                                                            class="main-input__inner" type="tel" id="tel"
-                                                            placeholder="+380 (**) *** ** **" name="yourPhone" required>
+                                                    <div class="main-input"><span class="icon-Phones"></span>
+                                                        <input class="main-input__inner" type="text" placeholder="Enter your number" name="number" required>
                                                     </div>
                                                     <input type="hidden" name="result">
                                                     <button class="btn_quiz btn" name="sendForm1" type="submit"
@@ -844,24 +835,23 @@
             <div class="modal">
 
                 <div class="modal-title">
-                    Замовити зворотній дзвінок
+                    Request a call
                 </div>
 
 
                 <form class="modal-form" action="phone.php" method="post">
                     <div class="main-input  input-modal-wrap"><span class="icon-Woman"></span><input
-                            class="main-input__inner" type="text" id="text1232" placeholder="Ваше ім'я" name="name"
+                            class="main-input__inner" type="text" id="text1232" placeholder="Your name" name="name"
                             required>
                     </div>
 
                     <div class="main-input input-modal-wrap"><span class="icon-Phones"></span>
-                        <input class="main-input__inner input-modal" type="tel" id="tel23"
-                            placeholder="+380 (**) *** ** **" tabindex="0" name="yourPhone" required minlength="9">
+                        <input class="main-input__inner" type="text" placeholder="Enter your number" name="number" required>
                     </div>
 
                     <div class="btn-modal-wrap">
-                        <button type="submit" name="sendForm3" class="btn modal-btn" style="color:black">
-                            Зателефонуйте мені
+                        <button type="submit" name="sendForm3" class="btn modal-btn" style="color:#fff">
+                            Call me
                         </button>
                     </div>
                 </form>

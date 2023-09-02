@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["sendForm3"])) {
 
     // Получаем данные из формы
     $name = $_POST["name"];
-    $yourPhone = $_POST["yourPhone"];
+    $yourPhone = $_POST["number"];
 
     // Составляем текст сообщения
     $message = "Новая заявка от $name:\n";

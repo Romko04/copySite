@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $orderRoof22 = $_POST["orderRoof22"];
     $orderRoof33 = $_POST["orderRoof33"];
     $yourName = $_POST["yourName"];
-    $yourPhone = $_POST["yourPhone"];
+    $yourPhone = $_POST["number"];
 
     // Составляем текст сообщения
     $message = "Новая заявка из формы:\n";
